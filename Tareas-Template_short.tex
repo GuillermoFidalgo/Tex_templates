@@ -38,7 +38,6 @@
 
 \usepackage{setspace}
 \usepackage{gensymb}
-\usepackage{mathpazo}
 \usepackage{authblk}
 \usepackage{fancyhdr}
 
@@ -46,3 +45,16 @@
 \newcommand{\thedate}{February 3, 2025}
 \newcommand{\HW}{1}
 \newcommand{\kcoulomb}{\frac{1}{4\pi\epsilon_0}}
+
+% Uncomment below if you don't want Times New Roman with math font 
+% and then comment out the TNR fonts below
+%\usepackage{mathpazo}
+
+\usepackage{mathptmx}
+% Math fonts need to be loaded before fontspec
+
+\usepackage{fontspec}
+% \setmainfont{Times New Roman} Use the bottom one if TNR is not installed
+% \setmainfont{Tex Gyre Termes}
+
+\setmainfont{TeXGyreTermes} % Open Source version included with LaTeX
