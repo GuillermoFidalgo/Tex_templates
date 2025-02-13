@@ -1,2 +1,6 @@
 *.swp
 *.aux
+*.log
+*.bak0
+*.fdb_latexmk
+*.fls
