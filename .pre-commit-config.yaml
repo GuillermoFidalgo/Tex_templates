@@ -15,6 +15,6 @@ repos:
     - id: codespell
 
   - repo: https://github.com/cmhughes/latexindent.pl.git
-    rev: V3.24.4
+    rev: V3.24.5
     hooks:
     - id: latexindent
