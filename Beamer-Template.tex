@@ -18,8 +18,11 @@
 	urlcolor=blue,
 }
 
+\setlength{\columnseprule}{.5pt}
+\def\columnseprulecolor{\color{black}}
 
-\graphicspath{{images/}}
+
+\graphicspath{{Images/}}
 
 \setbeamertemplate{footline}[frame number]
 \beamertemplatenavigationsymbolsempty
@@ -30,6 +33,10 @@
 \definecolor{crimsonflame}{RGB}{158, 27, 50}
 \usecolortheme[named=crimsonflame]{structure}
 
-% \usefonttheme{professionalfonts}
-% \usepackage{mathpazo}
+\usefonttheme{professionalfonts}
+\usepackage{mathptmx}
 % \renewcommand\familydefault{\rmdefault}
+
+\newcommand{\thedate}{\today}
+\newcommand{\HW}{1}
+\newcommand{\kcoulomb}{\frac{1}{4\pi\epsilon_0}}

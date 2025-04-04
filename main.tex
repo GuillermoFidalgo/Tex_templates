@@ -1,53 +1,47 @@
-\documentclass{report}
-\input{HW_Template.tex}
+% \documentclass{report}
+% \input{HW_Template.tex}
 
-%\documentclass[aspectratio=43]{beamer}
-%\input{UPRM-beamer-Template}
+\documentclass[aspectratio=43]{beamer}
+\input{Beamer-Template.tex}
 
 
 \title{Template}
-
-
 \title{PH - 5XX \\ Class Name\\ Homework \HW}
-
-
 \date{\thedate}
 
 %%%%%%%%%%%%%%%
 % for documents
-\author{Guillermo Fidalgo Rodríguez} %[1] is to indicate connection with affil institute
+% \author{Guillermo Fidalgo Rodríguez} %[1] is to indicate connection with affil institute
 % \author{Tetiana}
 % \author{Roy}
-\affil[1]{University of Puerto Rico - Mayagüez, Physics Department}
+% \affil[1]{University of Puerto Rico - Mayagüez, Physics Department}
 
 %%%%%%%%%%%%%%%
 % for beamer
-%\author[G. Fidalgo]{Guillermo A. Fidalgo Rodríguez}
-%\institute[UA]{University of Alabama}
+\author[G. Fidalgo]{Guillermo A. Fidalgo Rodríguez}
+\institute[UA]{University of Alabama}
 % \logo{\includegraphics[width = 1in]{uprm_logo.png}}
-%\logo{\includegraphics[width = 1cm]{UA_logo.jpg}}
+% \logo{\includegraphics[width = 1cm]{UA_logo.jpg}}
 %%%%%%%%%%%%%%%
 
 
 \begin{document}
 
-
-\maketitle
+%%%%%%%%%%%%%%%%%%% For Articles or reports
+% \maketitle
 % Set the page style to "fancy"...
-\pagestyle{fancy}
+% \pagestyle{fancy}
 %... then configure it.
-\fancyhead{} % clear all header fields
-\fancyhead[L]{\textbf{Guillermo Fidalgo} }
-\fancyhead[C]{Homework \HW}
-\fancyhead[R]{\thedate}
+% \fancyhead{} % clear all header fields
+% \fancyhead[L]{\textbf{Guillermo Fidalgo} }
+% \fancyhead[C]{Homework \HW}
+% \fancyhead[R]{\thedate}
 % \fancyfoot{} % clear all footer fields
 % \fancyfoot[LE,RO]{\thepage}
 % \fancyfoot[LO,CE]{From: K. Grant}
 % \fancyfoot[CO,RE]{To: Dean A. Smith}
 % Some content:
-
-
-My content
+% My content
 % \begin{enumerate}
 % 	\include{Questions/P1}
 % 	\include{Questions/P2}
@@ -57,6 +51,20 @@ My content
 % 	% \include{Questions/P6}
 % \end{enumerate}
 
+%%%%%%%%%%%%%%%%%% For Beamer
+\begin{frame}
+	\titlepage
+	\hfill
+	\includegraphics[width=1.5cm]{Images/UA_logo.jpg}
+\end{frame}
 
+\begin{frame}{TOC}
+	\tableofcontents
+\end{frame}
+
+
+\section{My slides}
+
+\frame{Here is what I want to talk about}
 
 \end{document}
